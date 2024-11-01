@@ -1,5 +1,5 @@
 /* Estilos Globais */
-body {
+.body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -8,8 +8,8 @@ body {
 
 /* Cabeçalho */
 .header {
-  background-color: #008cba;
-  color: white;
+  background-color: #0c0c0c;
+  color: rgb(255, 247, 247);
   padding: 1rem;
   text-align: center;
 }
@@ -53,7 +53,7 @@ body {
 }
 
 .ticket-card button {
-  background-color: #008cba;
+  background-color: #070808;
   color: white;
   padding: 0.5rem 1rem;
   border: none;
@@ -63,12 +63,12 @@ body {
 }
 
 .ticket-card button:hover {
-  background-color: #005f7f;
+  background-color: #212324;
 }
 
 /* Rodapé */
 .footer {
-  background-color: #333;
+  background-color: #111111;
   color: white;
   text-align: center;
   padding: 1rem;

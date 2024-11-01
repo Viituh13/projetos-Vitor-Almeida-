@@ -8,7 +8,7 @@ body {
 
 /* Cabeçalho */
 .header {
-    background-color: #008cba;
+    background-color: #050505;
     color: white;
     padding: 1rem;
     text-align: center;
@@ -38,7 +38,7 @@ body {
 }
 
 .sobre-nos h2 {
-    color: #008cba;
+    color: #121414;
     margin-bottom: 1rem;
 }
 
@@ -70,7 +70,7 @@ body {
 }
 
 .equipe h2 {
-    color: #008cba;
+    color: #090a0a;
     margin-bottom: 2rem;
 }
 
@@ -92,13 +92,13 @@ body {
 }
 
 .membro h3 {
-    color: #008cba;
+    color: #15181a;
     margin-bottom: 0.5rem;
 }
 
 /* Rodapé */
 .footer {
-    background-color: #333;
+    background-color: #070606;
     color: white;
     text-align: center;
     padding: 1rem;

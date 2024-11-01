@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Nós - Shows.Com</title>
-    <link rel="stylesheet" href="estilopgp.css">
+    <link rel="stylesheet" href="css/pgsob.css">
 </head>
 <body>
     <!-- Cabeçalho -->
@@ -48,7 +48,7 @@
         <div class="membros-equipe">
             <div class="membro">
                 <h3>Vitor Alemida</h3>
-                <p><strong>Função:</strong> Gerente de Vendas</p>
+                <p><strong>Função:</strong>Programador 1</p>
                 <p>Vitor é responsável por criar parcerias estratégicas com artistas e promotores de eventos, garantindo as melhores opções de shows e experiências para nossos clientes.</p>
             </div>
             <div class="membro">
@@ -60,6 +60,21 @@
                 <h3>Davy Alexandre</h3>
                 <p><strong>Função:</strong> Diretor de Operações</p>
                 <p>Davy supervisiona toda a operação da empresa, garantindo eficiência e qualidade em cada venda realizada.</p>
+            </div>
+            <div class="membro">
+                <h3>Gustavo Henrique</h3>
+                <p><strong>Função:</strong> Atendimento ao Cliente</p>
+                <p>Gustavo está à frente do nosso time de atendimento, solucionando dúvidas e proporcionando uma experiência de compra excelente.</p>
+            </div>
+            <div class="membro">
+                <h3>Gustavo Henrique</h3>
+                <p><strong>Função:</strong> Atendimento ao Cliente</p>
+                <p>Gustavo está à frente do nosso time de atendimento, solucionando dúvidas e proporcionando uma experiência de compra excelente.</p>
+            </div>
+            <div class="membro">
+                <h3>Gustavo Henrique</h3>
+                <p><strong>Função:</strong> Atendimento ao Cliente</p>
+                <p>Gustavo está à frente do nosso time de atendimento, solucionando dúvidas e proporcionando uma experiência de compra excelente.</p>
             </div>
             <div class="membro">
                 <h3>Gustavo Henrique</h3>

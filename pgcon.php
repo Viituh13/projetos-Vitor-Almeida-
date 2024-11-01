@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato - Shows.Com</title>
-    <link rel="stylesheet" href="estilopgp.css">
+    <link rel="stylesheet" href="css/pgcon.css">
 </head>
 <body>
     <!-- Cabeçalho -->
@@ -12,9 +12,9 @@
         <h1>Contato - Shows.Com</h1>
         <nav>
             <ul>
-                <li><a href="pgp.php">Home</a></li>
+                <li><a href="pgp.php">Shows </a></li>
                 <li><a href="#contact">Contato</a></li>
-                <li><a href="#login">Login</a></li>
+                <li><a href="">Login</a></li>
                 <li><a href="pgsob.php">Sobre</a></li>
             </ul>
         </nav>
