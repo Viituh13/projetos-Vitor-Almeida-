@@ -1,0 +1,105 @@
+/* Estilos Globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #050505;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Seção Sobre Nós */
+.sobre-nos {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.sobre-nos h2 {
+    color: #121414;
+    margin-bottom: 1rem;
+}
+
+.sobre-nos p {
+    margin-bottom: 1rem;
+}
+
+/* Valores */
+.sobre-nos ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.sobre-nos ul li {
+    background-color: #fff;
+    padding: 0.8rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Equipe */
+.equipe {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+.equipe h2 {
+    color: #090a0a;
+    margin-bottom: 2rem;
+}
+
+.membros-equipe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.membro {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    min-width: 250px;
+    text-align: left;
+}
+
+.membro h3 {
+    color: #15181a;
+    margin-bottom: 0.5rem;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #070606;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
