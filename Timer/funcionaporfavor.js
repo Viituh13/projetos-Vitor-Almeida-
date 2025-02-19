@@ -1,10 +1,10 @@
-let startTime = 0;
-let elapsedTime = 0;
+let gol = 0;
+let vituh = 0;
 let timerInterval;
 let running = false;
 
 function updateDisplay() {
-    let totalMilliseconds = elapsedTime + (running ? Date.now() - startTime : 0);
+    let totalMilliseconds = vituh + (running ? Date.now() - gol : 0);
     let milliseconds = Math.floor((totalMilliseconds % 1000) / 10);
     let seconds = Math.floor((totalMilliseconds / 1000) % 60);
     let minutes = Math.floor((totalMilliseconds / (1000 * 60)) % 60);
@@ -17,7 +17,7 @@ function updateDisplay() {
 
 function startTimer() {
     if (!running) {
-        startTime = Date.now() - elapsedTime;
+        gol = Date.now() - vituh;
         timerInterval = setInterval(updateDisplay, 10);
         running = true;
     }
@@ -26,7 +26,7 @@ function startTimer() {
 function pauseTimer() {
     if (running) {
         clearInterval(timerInterval);
-        elapsedTime += Date.now() - startTime;
+        vituh += Date.now() - startTime;
         running = false;
     }
 }
@@ -34,7 +34,7 @@ function pauseTimer() {
 function resetTimer() {
     clearInterval(timerInterval);
     startTime = 0;
-    elapsedTime = 0;
+    vituh = 0;
     running = false;
     document.getElementById("timer").textContent = "00:00:00";
 }
