@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+D:\Curso DS\2ºSemestre\DS\controleBancario\.metadata\.plugins\org.eclipse.jdt.core
+4216410401.index
